@@ -1,0 +1,24 @@
+{
+  "entities": {
+    "Wish": {
+      "collection": "wishes",
+      "fields": {
+        "wish": { "type": "string", "required": true },
+        "timestamp": { "type": "number", "required": true },
+        "dateStr": { "type": "string", "required": true },
+        "authorId": { "type": "string", "required": false }
+      }
+    },
+    "PolaroidMemory": {
+      "collection": "memories",
+      "fields": {
+        "title": { "type": "string", "required": true },
+        "caption": { "type": "string", "required": true },
+        "date": { "type": "string", "required": true },
+        "theme": { "type": "string", "required": true },
+        "imageUrl": { "type": "string", "required": false },
+        "timestamp": { "type": "number", "required": true }
+      }
+    }
+  }
+}
